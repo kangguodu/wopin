@@ -1,0 +1,27 @@
+.wp-download-banner {
+    margin: 0 auto;
+    margin-top: 1.07rem;
+    max-height: 814px;
+    max-width: 1920px;
+    position: relative;
+    width: 100%;
+}
+.wp-download-banner img {
+    width: 100%;
+}
+.wp-download-banner .wp-download-qrcode {
+    position: absolute;
+    z-index: 100;
+}
+.wp-download-banner .btn-download {
+    position: absolute;
+}
+.wopin-foot-head,.copyright{
+	display: none;
+}
+.wopin-bottom-nav{
+	/*margin-top:-20px !important;*/
+	/*margin-bottom: 50px !important;*/
+	position: relative;
+	bottom: 30px;
+}

@@ -1,0 +1,99 @@
+a{
+    text-decoration: none;
+
+}
+@media screen and (min-width: 768px) {
+   /*#foot{
+        margin:30px auto;
+    }*/
+    .wopin-foot-head{
+         position: relative;
+    }
+    .wopin-foot-head>div,.pfh-code>div,.pfh-text{
+        display: inline-block;
+    }
+    .pfh-code>div{
+        margin-right:32px;
+    }
+    .pfh-code{
+        padding:0 70px;
+        border-right: 1px solid #4d4d4d;
+    }
+    .wopin-foot .wopin-foot-head .pfh-code .pfh-code-app p, .wopin-foot .wopin-foot-head .pfh-code .pfh-code-service p, .wopin-foot .wopin-foot-head .pfh-code .pfh-code-wechat p {
+        color: #4d4d4d;
+        position: relative;
+        padding: 5px 0;
+        text-align: center;
+    }
+    .pfh-text{
+        position: absolute;
+        top: 0;
+        margin-left: 20px;
+
+    }
+    .pfh-text>p{
+        margin-left: 40px;
+    }
+    .pfh-text-contact{
+        color: #4d4d4d;
+        font-size: 20px;
+        padding:0 0 10px;
+        font-weight: bold;
+    }
+    .pfh-text .other{
+        padding-left:70px;
+    }
+
+    .wopin-foot .wopin-bottom-nav .pd-nav-list .pd-nav-list-item {
+        cursor: pointer;
+        display: inline-block;
+        border-right: 1px solid #c1c1c1;
+    }
+    li {
+        list-style: none;
+    }
+    li, ul {
+        margin: 0;
+        padding: 0;
+    }
+    .wopin-foot .wopin-bottom-nav {
+        font-size: 0;
+        margin: 0 auto;
+        margin:50px 0 20px;
+        max-width: 1200px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .wopin-foot .wopin-bottom-nav .pd-nav-list {
+        display: inline-block;
+        position: relative;
+    }
+    .wopin-foot .wopin-bottom-nav .pd-nav-list .pd-nav-list-item span {
+        color: #6c6c6c;
+        font-size: 20px;
+        padding:5px 30px;
+        position: relative;
+    }
+    .copyright {
+        background-color: #3f3e3e;
+    }
+    .copyright .wopin-foot-cr {
+        padding-top: 24px;
+        text-align: center;
+    }
+    .copyright p {
+        color: #b1b1b1;
+        font-size: 18px;
+        line-height: 54px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px){
+    #foot,.copyright{
+         display:none;
+    }
+
+}
+
